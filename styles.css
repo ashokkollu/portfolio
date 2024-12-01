@@ -49,3 +49,24 @@ body{
 
 }
 
+.cardsdiv{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: auto;
+
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(2px);
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border: 2px solid beige !important;
+}
+
+.card img{
+    width: 70%;
+}
