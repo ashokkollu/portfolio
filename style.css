@@ -2,8 +2,6 @@ a {
   text-decoration: none;
 }
 
-
-
 h1 {
   color: #0056b3;
 }
@@ -93,7 +91,6 @@ section {
 .projects-div {
   width: 80%;
   margin: 0 auto;
- 
 }
 
 .hover-text {
@@ -109,6 +106,7 @@ section {
 }
 
 .project-item {
+  width: 50%;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -118,15 +116,6 @@ section {
   height: 50vh;
 }
 
-#projectOne,
-#projectFour {
-  width: 55%;
-}
-
-#projectTwo,
-#projectThree {
-  width: 45%;
-}
 .project-item:hover {
   transform: scale(1.05);
 }
@@ -165,13 +154,15 @@ section {
   padding: 10px;
 }
 
-.toolsUsed li, .overlayTwo .toolsUsed li, .overlayThree .toolsUsed li, .overlayFour .toolsUsed li {
+.toolsUsed li,
+.overlayTwo .toolsUsed li,
+.overlayThree .toolsUsed li,
+.overlayFour .toolsUsed li {
   list-style: none;
   background-color: white;
   color: #808080;
   padding: 5px 10px;
   margin: 5px;
   width: auto;
-  border-radius: 50px;}
-
-  
+  border-radius: 50px;
+}
